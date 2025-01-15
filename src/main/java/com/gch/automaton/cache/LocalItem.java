@@ -6,4 +6,6 @@ public interface LocalItem {
     UUID getUUID();
     ItemType getItemType();
     UnitZoneType getUnitZoneType();
+    Object getValue();
+
 }
